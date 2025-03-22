@@ -1,0 +1,27 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Ignore Python virtual environment
+venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore logs and cache
+logs/
+*.log
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints (if you use Jupyter)
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
